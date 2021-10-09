@@ -22,7 +22,7 @@ class Integer(object):
 		lib.Integer_set(self.obj, val)
 
 	def fib(self):
-		return lib.Integer_fib(self.obj, val)
+		return lib.Integer_fib(self.obj)
 	
 	def fib_pr(self, val):
 		return lib.Integer_fib_pr(self.obj, val)
