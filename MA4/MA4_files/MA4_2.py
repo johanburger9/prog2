@@ -15,7 +15,7 @@ def main():
 	#print(f.get())
 
 	f = Integer(5)
-	print(f.fib_pu())
+	print(f.fib())
 
 	
 
