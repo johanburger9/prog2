@@ -17,7 +17,7 @@ def main():
 
 	timings2 = []
 	
-	for n in range(30, 46)
+	for n in range(30, 46):
 		start2 = pc()
 		f = Integer(n)
 		end2 = pc()
