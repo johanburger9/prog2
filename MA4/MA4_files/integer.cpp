@@ -25,8 +25,9 @@ void Integer::set(int n){
 	}
 
 int Integer::fib(){
-	return fib_pr(val);
-}
+	n = val
+	return fib_pr(n);
+	}
 
 int Integer::fib_pr(int n){
 	if (n <= 1){
@@ -35,7 +36,7 @@ int Integer::fib_pr(int n){
     else{
         return(fib_pr(n-1) + fib_pr(n-2));
 	}
-}
+	}
 
 extern "C"{
 	Integer* Integer_new(int n) {return new Integer(n);}
