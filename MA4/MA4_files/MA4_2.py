@@ -2,6 +2,7 @@
 
 from integer import Integer
 
+
 def fib_py(n):
     if n <= 1:
         return n
@@ -14,9 +15,11 @@ def main():
 	#f.set(7)
 	#print(f.get())
 
+	timings2 = []
+	start2 = pc()
 	f = Integer(8)
 	print(f.fib())
-
+	end2 = pc()
 	
 
 if __name__ == '__main__':
