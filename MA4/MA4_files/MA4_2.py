@@ -16,10 +16,14 @@ def main():
 	#print(f.get())
 
 	timings2 = []
-	start2 = pc()
-	f = Integer(8)
-	print(f.fib())
-	end2 = pc()
+	
+	for n in range(30, 46)
+		start2 = pc()
+		f = Integer(n)
+		end2 = pc()
+		timings2.append(f.fib())
+	plt.figure()
+    	plt.plot(range(30, 46), timings2, 'b.')
 	
 
 if __name__ == '__main__':
