@@ -6,8 +6,10 @@ class Integer{
 		Integer(int);
 		int get();
 		void set(int);
+		int fib(int);
 	private:
 		int val;
+		int fib(int);
 	};
  
 Integer::Integer(int n){
@@ -22,17 +24,6 @@ void Integer::set(int n){
 	val = n;
 	}
 
-public:
-int Integer::fib(int n){
-	if (n <= 1){
-		return n
-	}
-    else{
-        return(fib_py(n-1) + fib_py(n-2))
-	}
-}
-
-private:
 int Integer::fib(int n){
 	if (n <= 1){
 		return n
