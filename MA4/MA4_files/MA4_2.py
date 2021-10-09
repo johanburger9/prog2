@@ -14,7 +14,7 @@ def main():
 	#f.set(7)
 	#print(f.get())
 
-	f = Integer(5)
+	f = Integer(8)
 	print(f.fib())
 
 	
