@@ -26,10 +26,10 @@ void Integer::set(int n){
 
 int Integer::fib(int n){
 	if (n <= 1){
-		return n
+		return n;
 	}
     else{
-        return(fib_py(n-1) + fib_py(n-2))
+        return(fib_py(n-1) + fib_py(n-2));
 	}
 }
 
