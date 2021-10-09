@@ -25,7 +25,7 @@ def main():
 		timings2.append(f.fib())
 	plt.figure()
 	plt.plot(range(30, 46), timings2, '.')
-	plt.plt.savefig('30_to_45cplusplus.png')
+	plt.savefig('30_to_45cplusplus.png')
 
 
 if __name__ == '__main__':
