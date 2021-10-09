@@ -6,10 +6,10 @@ class Integer{
 		Integer(int);
 		int get();
 		void set(int);
-		int fib(int);
+		int fib_pu(int);
 	private:
 		int val;
-		int fib(int);
+		int fib_pr(int);
 	};
  
 Integer::Integer(int n){
@@ -24,12 +24,21 @@ void Integer::set(int n){
 	val = n;
 	}
 
-int Integer::fib(int n){
+int Integer::fib_pu(int n){
 	if (n <= 1){
 		return n;
 	}
     else{
-        return(fib(n-1) + fib(n-2));
+        return(fib_pu(n-1) + fib_pu(n-2));
+	}
+}
+
+int Integer::fib_pr(int n){
+	if (n <= 1){
+		return n;
+	}
+    else{
+        return(fib_pr(n-1) + fib_pr(n-2));
 	}
 }
 
