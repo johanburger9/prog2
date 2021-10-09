@@ -25,12 +25,7 @@ void Integer::set(int n){
 	}
 
 int Integer::fib(int n){
-	if (n <= 1){
-		return n;
-	}
-    else{
-        return(fib_pr(n-1) + fib_pr(n-2));
-	}
+	fib_pr(n)
 }
 
 int Integer::fib_pr(int n){
