@@ -29,7 +29,7 @@ int Integer::fib_pu(int n){
 		return n;
 	}
     else{
-        return(fib_pr(n-1) + fib_pr(n-2));
+        return(fib_pu(n-1) + fib_pu(n-2));
 	}
 }
 
