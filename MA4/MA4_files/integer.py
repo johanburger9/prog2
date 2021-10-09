@@ -21,7 +21,7 @@ class Integer(object):
 	def set(self, val):
 		lib.Integer_set(self.obj, val)
 
-	def fib(self, val):
+	def fib(self):
 		return lib.Integer_fib(self.obj, val)
 	
 	def fib_pr(self, val):
