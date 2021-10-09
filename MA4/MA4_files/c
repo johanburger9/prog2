@@ -1,0 +1,13 @@
+
+ssh jobu3404@atterbom.it.uu.se
+
+token: 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
+
+git clone https://github.com/johanburger9/prog2
+
+cd prog2/MA4/MA4_files
+
+rm -fr prog2
+
+make
+python3 MA4_2.py
