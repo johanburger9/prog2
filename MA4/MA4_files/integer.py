@@ -10,7 +10,8 @@ class Integer(object):
 		lib.Integer_get.restype = ctypes.c_int
 		lib.Integer_set.argtypes = [ctypes.c_void_p,ctypes.c_int]
 		lib.Integer_delete.argtypes = [ctypes.c_void_p]
-		lib.Integer_fib.argtypes = [ctypes.c_int]
+		lib.Integer_fib_pu.argtypes = [ctypes.c_int]
+		lib.Integer_fib_pr.argtypes = [ctypes.c_int]
 		self.obj = lib.Integer_new(val)
 
 	def get(self):
@@ -19,8 +20,11 @@ class Integer(object):
 	def set(self, val):
 		lib.Integer_set(self.obj, val)
 
-	def fib(self, val):
-		return lib.Integer_fib(self.obj, val)
+	def fib_pu(self, val):
+		return lib.Integer_fib_pu(self.obj, val)
+	
+	def fib_pr(self, val):
+		return lib.Integer_fib_pr(self.obj, val)
         
 	def __del__(self):
 		return lib.Integer_delete(self.obj)
