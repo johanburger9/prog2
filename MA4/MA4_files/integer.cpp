@@ -29,7 +29,7 @@ int Integer::fib(int n){
 		return n;
 	}
     else{
-        return(fib_py(n-1) + fib_py(n-2));
+        return(fib(n-1) + fib(n-2));
 	}
 }
 
