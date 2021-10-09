@@ -25,7 +25,7 @@ void Integer::set(int n){
 	}
 
 int Integer::fib(){
-	int n = val
+	int n = val;
 	return fib_pr(n);
 	}
 
