@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from integer import Integer
-
+from time import perf_counter as pc
 
 def fib_py(n):
     if n <= 1:
