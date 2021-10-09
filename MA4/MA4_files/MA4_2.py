@@ -9,13 +9,13 @@ def fib_py(n):
         return(fib_py(n-1) + fib_py(n-2))
 
 def main():
-	#f = Integer(5)
-	#print(f.get())
-	#f.set(7)
-	#print(f.get())
-
 	f = Integer(5)
-	print(f.fib())
+	print(f.get())
+	f.set(7)
+	print(f.get())
+
+	#f = Integer(5)
+	#print(f.fib())
 
 	
 
