@@ -25,6 +25,7 @@ def main():
 		timings2.append(f.fib())
 	plt.figure()
 	plt.plot(range(30, 46), timings2)
+	plt.show()
 
 
 if __name__ == '__main__':
