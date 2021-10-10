@@ -22,7 +22,7 @@ def main():
 		start2 = pc()
 		f = Integer(n)
 		end2 = pc()
-		timings2.append(f.fib())
+		timings2.append(end2-start2)
 	plt.figure()
 	plt.plot(range(30, 46), timings2, '.')
 	plt.savefig('30_to_45cplusplus.png')
