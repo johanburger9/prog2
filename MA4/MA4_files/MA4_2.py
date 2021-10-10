@@ -25,6 +25,7 @@ def main():
 		timings2.append(end2-start2)
 	plt.figure()
 	plt.plot(range(30, 46), timings2, '.')
+	plt.show()
 	plt.savefig('MA4_files' + '30_to_45cplusplus.png')
 
 
