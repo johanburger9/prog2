@@ -23,7 +23,7 @@ def main():
 		end1 = pc()
 		timings1.append(end1-start1)
 	plt.figure()
-	plt.plot(range(30, 46), timings1, '.')
+	plt.plot(range(30, 36), timings1, '.')
 	plt.show()
 	plt.savefig('MA4_files' + '30_to_35python.png')
 
