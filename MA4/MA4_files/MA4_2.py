@@ -17,15 +17,15 @@ def main():
 	#print(f.get())
 	
 	timings1 = []
-	for n in range(30, 36):
+	for n in range(30, 46):
 		start1 = pc()
 		fib_py(n)
 		end1 = pc()
 		timings1.append(end1-start1)
 	plt.figure()
-	plt.plot(range(30, 36), timings1, '.')
+	plt.plot(range(30, 46), timings1, '.')
 	plt.show()
-	plt.savefig('MA4_files' + '30_to_35python.png')
+	plt.savefig('30_to_45python.png')
 
 	
 	"""timings2 = []
