@@ -15,9 +15,20 @@ def main():
 	#print(f.get())
 	#f.set(7)
 	#print(f.get())
-
-	timings2 = []
 	
+	timings1 = []
+	for n in range(30, 46):
+		start1 = pc()
+		fib_py(n)
+		end1 = pc()
+		timings2.append(end1-start1)
+	plt.figure()
+	plt.plot(range(30, 46), timings1, '.')
+	plt.show()
+	plt.savefig('MA4_files' + '30_to_45python.png')
+
+	
+	"""timings2 = []
 	for n in range(30, 46):
 		start2 = pc()
 		f = Integer(n)
@@ -26,7 +37,7 @@ def main():
 	plt.figure()
 	plt.plot(range(30, 46), timings2, '.')
 	plt.show()
-	plt.savefig('MA4_files' + '30_to_45cplusplus.png')
+	plt.savefig('MA4_files' + '30_to_45cplusplus.png')"""
 
 
 if __name__ == '__main__':
