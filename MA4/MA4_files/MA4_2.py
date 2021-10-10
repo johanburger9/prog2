@@ -21,7 +21,7 @@ def main():
 		start1 = pc()
 		fib_py(n)
 		end1 = pc()
-		timings2.append(end1-start1)
+		timings1.append(end1-start1)
 	plt.figure()
 	plt.plot(range(30, 46), timings1, '.')
 	plt.show()
