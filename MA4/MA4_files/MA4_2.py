@@ -38,7 +38,7 @@ def main():
 	plt.figure()
 	plt.plot(range(30, 46), timings2, '.')
 	plt.show()
-	plt.savefig('MA4_files' + '30_to_45c++.png')
+	plt.savefig('30_to_45c++.png')
 	
 	"""timings3 = []
 	for n in range(1, 31):
@@ -51,12 +51,12 @@ def main():
 	plt.show()
 	plt.savefig('1_to_30python.png')"""
 	
-	"""n = 47
-	start2 = pc()
+	n = 47
+	start4 = pc()
 	f = Integer(n)
 	f.fib()
 	end2 = pc()
-	print(end2-start2)"""
+	print(end4-start4)
 
 
 if __name__ == '__main__':
