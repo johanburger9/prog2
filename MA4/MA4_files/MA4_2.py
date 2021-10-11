@@ -28,18 +28,19 @@ def main():
 	plt.savefig('30_to_45python.png')"""
 
 	
-	"""timings2 = []
+	timings2 = []
 	for n in range(30, 46):
 		start2 = pc()
 		f = Integer(n)
+		f.fib()
 		end2 = pc()
 		timings2.append(end2-start2)
 	plt.figure()
 	plt.plot(range(30, 46), timings2, '.')
 	plt.show()
-	plt.savefig('MA4_files' + '30_to_45cplusplus.png')"""
+	plt.savefig('MA4_files' + '30_to_45c++.png')
 	
-	timings3 = []
+	"""timings3 = []
 	for n in range(1, 31):
 		start3 = pc()
 		fib_py(n)
@@ -48,7 +49,14 @@ def main():
 	plt.figure()
 	plt.plot(range(1, 31), timings3, '.')
 	plt.show()
-	plt.savefig('1_to_30python.png')
+	plt.savefig('1_to_30python.png')"""
+	
+	"""n = 47
+	start2 = pc()
+	f = Integer(n)
+	f.fib()
+	end2 = pc()
+	print(end2-start2)"""
 
 
 if __name__ == '__main__':
